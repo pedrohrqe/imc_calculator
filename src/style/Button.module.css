@@ -1,0 +1,23 @@
+.button {
+    font-size: 1rem;
+    background-color: var(--primary);
+    color: var(--text);
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    transition: 300ms;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+
+.button:active {
+    transition: 50ms;
+    background-color: var(--accent);
+}
+
+@media (hover: hover) {
+    .button:hover {
+        background-color: var(--accent);
+    }
+}
